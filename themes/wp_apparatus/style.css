@@ -1,0 +1,89 @@
+/*
+Theme: Default
+Version: 1.0
+Author: Mathew Tinsley <tinsley@tinsology.net>
+*/
+/*
+body {
+	padding: 20px;
+	background-color: #fff;
+	font:13px "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	text-shadow: #ccc 0 2px 4px;
+}
+*/
+.section-title {
+	text-align: left;
+	width: 80%;
+	margin-bottom: 7px;
+	padding-top:5px;
+	font-weight: bold;
+	text-shadow: #ccc 0 2px 4px;
+	-moz-text-shadow: #ccc 0 2px 4px;
+	-webkit-text-shadow: #ccc 0 2px 4px;
+	-khtml-text-shadow: #ccc 0 2px 4px;
+}
+
+.section-body {
+	text-align: left;
+	padding: 5px;
+	width: 80%;
+	background-color: #fff;
+	-moz-box-shadow:#ccc 0 4px 18px;
+    -webkit-box-shadow:#ccc 0 4px 18px;
+    -khtml-box-shadow:#ccc 0 4px 18px;
+    box-shadow:#ccc 0 4px 18px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+}
+
+.section-body code {
+	background-color: #fff;
+}
+
+.error-table {
+	text-align: left;
+	padding: 3px;
+	width: 80%;
+}
+
+.input {
+	margin: 10px;
+	width: 98%;
+	background-repeat:no-repeat;
+	background-position: bottom right;
+}
+
+.php {
+	color: #0000BB;
+	font-weight: bold;
+}
+
+.footer {
+	font-size: small;
+}
+
+.source {
+	font: 1em Consolas, 'andale mono', 'monotype.com', 'lucida console', monospace;
+}
+
+.hide {
+	display: none;
+}
+
+.textarea-resizer {
+	height:32px; 
+	/*background:#666; */
+	background-image: url('images/resize_sm.jpg');
+	background-position: center top;
+	background-repeat: no-repeat;
+	cursor:s-resize;
+	margin-bottom: -16px;
+	margin-top: -10px;
+}
+
+a			{ color:#0000BB; text-decoration:none; cursor:pointer; }
+a:link		{ color:#0000BB; text-decoration:none; }
+a:visited 	{ color:#0000BB; text-decoration:none; }
+a:hover		{ color:#0000BB; text-decoration:underline; }
+a:active	{ color:#0000BB; text-decoration:none; }

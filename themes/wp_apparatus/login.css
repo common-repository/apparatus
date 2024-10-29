@@ -1,0 +1,77 @@
+.loginBox {
+	text-align: left;
+	width: 260px;
+	color: #666666;
+	margin-bottom: 16px;
+}
+
+body
+{
+    font:11px "Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	margin-top: 75px;
+}
+
+form
+{
+    padding:16px 16px 16px 16px;
+    background:#fff;
+    border:1px solid #e5e5e5;
+    -moz-box-shadow:rgba(200,200,200,1) 0 4px 18px;
+    -webkit-box-shadow:rgba(200,200,200,1) 0 4px 18px;
+    -khtml-box-shadow:rgba(200,200,200,1) 0 4px 18px;
+    box-shadow:rgba(200,200,200,1) 0 4px 18px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 7px;
+}
+
+.button
+{
+    font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	float: right;
+	margin-top: 2px;
+	margin-right: -7px;
+}
+
+.invalid
+{
+    font-family:"Lucida Grande",Verdana,Arial,"Bitstream Vera Sans",sans-serif;
+	float: left;
+	margin-top: 7px;
+	color: red;
+}
+
+.key
+{
+	width: 100%;
+}
+
+h1
+{
+	color: #555555;
+	text-align: center;
+	font-variant:small-caps;
+}
+
+.version
+{
+	font-size: small;
+	color: #888888;
+	font-variant: normal;
+	vertical-align:bottom;
+}
+
+input
+{
+    color:#555;
+}
+
+.clear
+{
+    clear:both;
+}
+
+A:link {text-decoration: underline; color: #0000CD;}
+A:visited {text-decoration: underline; color: #0000CD;}
+A:active {text-decoration: underline; color: #0000CD;}
+A:hover {text-decoration: none; color: #0000CD;}
